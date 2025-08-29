@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckiodm3suafdy"]
+
+[ext_resource type="PackedScene" uid="uid://bctplcyj3bsck" path="res://nodes/player.tscn" id="1_wpmhx"]
+
+[node name="World" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -1576.0
+offset_top = -1345.0
+offset_right = 2720.0
+offset_bottom = 1893.0
+color = Color(0.611765, 0.596078, 0.364706, 1)
+
+[node name="Player" parent="." instance=ExtResource("1_wpmhx")]
+position = Vector2(280, 153)
